@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_Manhã
 {
-    public class Pessoa
+    public class Cliente
     {
         private int Id;
         private string Nome;
         private string Telefone;
 
-        public Pessoa(int id, string nome, string telefone)
+        public Cliente(int id, string nome, string telefone)
         {
             Id = id;
             Nome = nome;
