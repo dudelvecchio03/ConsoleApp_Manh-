@@ -28,6 +28,16 @@ namespace ConsoleApp_Manhã
             Estado = estado;
         }
 
+        public string getEnderecoCompleto()
+        {
+            return Rua + " " + Numero + "," + Cidade + " " + Estado;
+        }
+
+        public string getEnderecoCurto()
+        {
+            return Rua + " " + Numero;
+        }
+
         
         public void setRua(string rua)
         {
